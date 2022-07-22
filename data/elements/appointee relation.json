@@ -1,0 +1,37 @@
+{
+    "name": "appointeeRelation",
+    "label": "Appointee Relationship (with Nominee)",
+    "type": "DROPDOWN",
+    "variableName": "appointeeRelation",
+    "properties": {
+        "options": [
+            "Spouse",
+            "Son",
+            "Daughter",
+            "Father",
+            "Mother",
+            "Father In Law",
+            "Mother In Law",
+            "Grand Mother",
+            "Grand Father",
+            "Grand Son",
+            "Grand Daughter",
+            "Daughter In Law",
+            "Son in Law",
+            "Sister",
+            "Brother",
+            "Sister In Law",
+            "Brother In Law",
+            "Niece",
+            "Nephew",
+            "Uncle",
+            "Aunty",
+            "Others"
+        ]
+    },
+    "prefillBoolean": false,
+    "prefillValue": null,
+    "readOnly": false,
+    "isRequired": true,
+    "enable": true
+}

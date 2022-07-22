@@ -1,0 +1,18 @@
+{
+    "name":"riaCoderiaMq00013",
+    "label": "Have you ever been diagnosed and/or treated and/or investigated for any of the following:\r\nCancer, tumor, malignancy, lump, nodule?",
+    "type": "RADIO",
+    "variableName": "riaCoderiaMq00013",
+
+    "properties": {
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    "prefillBoolean": false,
+    "prefillValue": null,
+    "readOnly": false,
+    "isRequired": true,
+    "enable": true
+}

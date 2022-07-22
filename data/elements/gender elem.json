@@ -1,0 +1,22 @@
+{
+    "name": "gender",
+    "label": "Gender",
+    "type": "DROPDOWN",
+    "variableName": "gender",
+    "properties": {
+        "url": "https://dev.mysparklife.com/master-data/getoptions/gender",
+        "options": [
+            "Male",
+            "Female"
+        ],
+        "readOnlyFn": [
+            "p",
+            "return [\"Son\", \"Daughter\"].includes(p(\"./../relation\").value)"
+        ]
+    },
+    "prefillBoolean": false,
+    "prefillValue": null,
+    "isRequired": true,
+    "readOnly": false,
+    "enable": true
+}

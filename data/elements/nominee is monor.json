@@ -1,0 +1,17 @@
+{
+    "name": "isNomineeMinor",
+    "label": "Nominee less than 18 years old?",
+    "type": "DROPDOWN",
+    "variableName": "isNomineeMinor",
+    "properties": {
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    "prefillBoolean": false,
+    "prefillValue": null,
+    "readOnly": false,
+    "isRequired": true,
+    "enable": true
+}

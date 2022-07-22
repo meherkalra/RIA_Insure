@@ -1,0 +1,9 @@
+{
+    "name": "insurerRelation",
+    "type": "TEXTDISPLAY",
+    "properties": {
+        "css": {
+            "className": "section-label"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name":"nomineeName",
+    "label": "Nominee Name",
+    "type": "TEXT",
+    "variableName": "nomineeName",
+    "options": null,
+    "prefillBoolean": false,
+    "prefillValue": null,
+    "readOnly": false,
+    "isRequired": true,
+    "enable": true,
+    "tooltip": "The person who will receive the benefits from the insurance policies in case of any casualty",
+    "regex": "%5E%5BA-z%20,.'-%5D+$"
+}

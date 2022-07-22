@@ -1,0 +1,17 @@
+{
+    "name":"riaCoderiaMq00012",
+    "label": "Have you ever been diagnosed and/or treated and/or investigated for any of the following:\r\nmultiple sclerosis, stroke, coma, paralysis, disorders of blood and blood vessels,  chronic gynaecological disorders, chronic ear disorders, major burns, blindness, Crohn’s Disease, ulcerative colitis, pancreatitis, glaucoma, autoimmune disorders, tuberculosis, arthritis, disorders of muscles and / or joints and / or spine,  epilepsy, any chronic condition other than diabetes or hypertension",
+    "type": "RADIO",
+    "variableName": "riaCoderiaMq00012",
+    "properties": {
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    "prefillBoolean": false,
+    "prefillValue": null,
+    "readOnly": false,
+    "isRequired": true,
+    "enable": true
+}

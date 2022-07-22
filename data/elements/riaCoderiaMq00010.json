@@ -1,0 +1,17 @@
+{
+    "name": "riaCoderiaMq00010",
+    "label": "Have you been hospitalized or have you undergone any surgical procedure including day-care treatment in last 3 months?",
+    "type": "RADIO",
+    "variableName": "riaCoderiaMq00010",
+    "properties": {
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    "prefillBoolean": false,
+    "prefillValue": null,
+    "readOnly": false,
+    "isRequired": true,
+    "enable": true
+}

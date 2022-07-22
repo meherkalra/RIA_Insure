@@ -1,0 +1,17 @@
+{
+    "name":"riaCoderiaMq00011",
+    "label": "Have you ever been diagnosed and/or treated and/or investigated for any of the following:\r\nheart, lung, kidney (other than past kidney stone removal), liver, brain, neurological disorders, mental health disorder, transplant treatments, genetic disorders?",
+    "type": "RADIO",
+    "variableName": "riaCoderiaMq00011",
+    "properties": {
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    "prefillBoolean": false,
+    "prefillValue": null,
+    "readOnly": false,
+    "isRequired": true,
+    "enable": true
+}

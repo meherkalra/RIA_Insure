@@ -1,0 +1,12 @@
+{
+    "name":"firstName",
+    "label": "First Name",
+    "type": "TEXT",
+    "variableName": "firstName",
+    "options": null,
+    "prefillBoolean": false,
+    "prefillValue": null,
+    "isRequired": false,
+    "readOnly": true,
+    "enable": true
+}

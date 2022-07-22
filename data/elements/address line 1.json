@@ -1,0 +1,9 @@
+{
+    "name":"addressLine1",
+    "label": "line1",
+    "type": "TEXT",
+    "options": null,
+    "prefillBoolean": false,
+    "readOnly": true,
+    "enable": true
+}

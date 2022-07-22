@@ -1,0 +1,17 @@
+{
+    "name":"riaCoderiaMq00014_03",
+    "label": "Is you HbA1C level as per last report > 9.00 ?",
+    "type": "RADIO",
+    "variableName": "riaCoderiaMq00014_03",
+    "properties": {
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    "prefillBoolean": false,
+    "prefillValue": null,
+    "readOnly": true,
+    "isRequired": false,
+    "enable": true
+}

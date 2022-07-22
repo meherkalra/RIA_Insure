@@ -1,0 +1,10 @@
+{
+    "name":"state",
+    "label": "State",
+    "type": "DROPDOWN",
+    "variableName": "state",
+    "options": null,
+    "prefillBoolean": false,
+    "readOnly": false,
+    "enable": true
+}

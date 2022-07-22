@@ -1,0 +1,10 @@
+{
+    "name":"phone",
+    "label": "Mobile",
+    "type": "TEXT",
+    "variableName": "phone",
+    "options": null,
+    "prefillBoolean": false,
+    "readOnly": true,
+    "enable": true
+}

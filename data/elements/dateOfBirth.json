@@ -1,0 +1,10 @@
+{
+    "name":"dateOfBirth",
+    "label": "Date of Birth",
+    "type": "DATE",
+    "variableName": "dob",
+    "prefillBoolean": false,
+    "readOnly": true,
+    "enable": true
+}
+

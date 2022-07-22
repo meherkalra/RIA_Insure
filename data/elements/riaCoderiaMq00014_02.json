@@ -1,0 +1,17 @@
+{
+    "name":"riaCoderiaMq00014_02",
+    "label": "Is your HbA1C test report date >90 days?",
+    "type": "RADIO",
+    "variableName": "riaCoderiaMq00014_02",
+    "properties": {
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    "prefillBoolean": false,
+    "prefillValue": null,
+    "readOnly": true,
+    "isRequired": false,
+    "enable": true
+}

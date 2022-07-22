@@ -1,0 +1,10 @@
+{
+    "name":"city",
+    "label": "City",
+    "type": "DROPDOWN",
+    "variableName": "city",
+    "options": null,
+    "prefillBoolean": false,
+    "readOnly": false,
+    "enable": true
+}

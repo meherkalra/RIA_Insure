@@ -1,0 +1,12 @@
+{
+    "name": "pincode",
+    "label": "Pincode",
+    "type": "DROPDOWN",
+    "variableName": "pincode",
+    "properties": {
+        "url": "https://dev.mysparklife.com/master-data/getoptions/pincode?page=0"
+    },
+    "prefillBoolean": false,
+    "readOnly": false,
+    "enable": true
+}

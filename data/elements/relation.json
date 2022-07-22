@@ -1,0 +1,38 @@
+{
+    "name": "relation",
+    "label": "Relationship",
+    "type": "DROPDOWN",
+    "variableName": "relation",
+    "properties": {
+        "options": [
+            "Self",
+            "Spouse",
+            "Son",
+            "Daughter",
+            "Father",
+            "Mother",
+            "Father In Law",
+            "Mother In Law",
+            "Grand Mother",
+            "Grand Father",
+            "Grand Son",
+            "Grand Daughter",
+            "Daughter In Law",
+            "Son in Law",
+            "Sister",
+            "Brother",
+            "Sister In Law",
+            "Brother In Law",
+            "Niece",
+            "Nephew",
+            "Uncle",
+            "Aunty",
+            "Others"
+        ]
+    },
+    "prefillBoolean": true,
+    "prefillValue": "Self",
+    "readOnly": true,
+    "enable": true,
+    "isSearcheable": false
+}

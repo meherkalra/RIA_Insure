@@ -1,0 +1,36 @@
+{
+    "label": "No for all",
+    "name": "noForAll",
+    "type": "BUTTON",
+    "properties": {
+        "css": {
+            "className": "button-type-no-for-all"
+        },
+        "affects": [
+            {
+                "path": "./../riaCoderiaMq00010",
+                "effect": [
+                    "return { value: \"No\" }"
+                ]
+            },
+            {
+                "path": "./../riaCoderiaMq00011",
+                "effect": [
+                    "return { value: \"No\" }"
+                ]
+            },
+            {
+                "path": "./../riaCoderiaMq00012",
+                "effect": [
+                    "return { value: \"No\" }"
+                ]
+            },
+            {
+                "path": "./../riaCoderiaMq00013",
+                "effect": [
+                    "return { value: \"No\" }"
+                ]
+            }
+        ]
+    }
+}

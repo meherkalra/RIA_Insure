@@ -1,0 +1,20 @@
+{
+    "name": "title",
+    "label": "Title",
+    "type": "DROPDOWN",
+    "variableName": "title",
+    "properties": {
+        "url": "https://dev.mysparklife.com/master-data/getoptions/title",
+        "options": [
+            "Mr",
+            "Miss",
+            "Mrs",
+            "Dr"
+        ]
+    },
+    "prefillBoolean": false,
+    "prefillValue": null,
+    "isRequired": true,
+    "readOnly": false,
+    "enable": true
+}

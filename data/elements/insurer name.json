@@ -1,0 +1,10 @@
+{
+    "name":"insurerName",
+    "type": "TEXTDISPLAY",
+    "properties": {
+        "css": {
+            "className": "section-label"
+        }
+    },
+    "enable": true
+}

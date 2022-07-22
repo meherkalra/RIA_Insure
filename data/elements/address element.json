@@ -1,0 +1,13 @@
+{
+    "name":"address",
+    "label": "Address",
+    "type": "LOCATION",
+    "prefillBoolean": false,
+    "properties":{
+        "url":"https://dev.mysparklife.com/master-data/getoptions/pincode?page=0",
+        "searchable":true
+    },
+    "readOnly": false,
+    "enable": true,
+    "isRequired":true
+}

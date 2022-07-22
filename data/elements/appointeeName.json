@@ -1,0 +1,13 @@
+{
+    "name":"appointeeName",
+    "label": "Appointee Name",
+    "type": "TEXT",
+    "variableName": "appointeeName",
+    "options": null,
+    "prefillBoolean": false,
+    "prefillValue": null,
+    "readOnly": false,
+    "isRequired": true,
+    "enable": true,
+    "tooltip": "If a claim arises when the nominee (child in this case) is younger than 18 years, the claim amount is paid to the appointee for custody until the minor turns 18"
+}
