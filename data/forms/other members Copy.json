@@ -1,0 +1,10 @@
+{
+    "name": "other-members",
+    "formHeader": "Tell us about other members in the plan",
+    "description":"",
+    "isStatic": false,
+    "formStyle":  "otherMembers",
+    "elementProperties": {
+        "otherMemberInfo-template":null
+    }
+}

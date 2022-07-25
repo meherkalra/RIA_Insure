@@ -1,0 +1,12 @@
+{
+    "name": "primary-applicant",
+    "formHeader":"",
+    "description":"",
+    "isStatic": false,
+    "formStyle": "primary applicant",
+    "elementProperties": {
+        "generalInfo-section":null,
+        "address-section":null,
+        "contactInfo-section":null
+    }
+}

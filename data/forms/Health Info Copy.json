@@ -1,0 +1,22 @@
+{
+    "name": "formHealth",
+    "formHeader": "Please answer some questions about your health",
+    "description": "",
+    "isStatic": false,
+    "elementProperties": {
+        "medicalQuestions-template": null,
+        "healthQuesDisclaimer": null
+    },
+    "metaInfo": {
+        "css": {
+            "layout": {
+                "xxl": 1,
+                "xl": 1,
+                "lg": 1,
+                "md": 1,
+                "sm": 1,
+                "xs": 1
+            }
+        }
+    }
+}
