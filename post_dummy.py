@@ -2,18 +2,29 @@ import json
 import os
 import requests
 
-ENDPOINT = "https://3dd0b4e6-d245-4435-83a2-cc3cf5778593.mock.pstmn.io/forms/element"
+BASE_URL = input("Enter your BASE URL: ")
 
+# BASE_URL = "https://2d426e44-0b78-4936-a179-02556024fdbe.mock.pstmn.io"
 
-DIR_PATH = "data/elements/"
+PATH = "/forms/elements"
+DIR_PATH = "data/"
 
-# list of paths of all the json files in the directory
-files = [DIR_PATH + file for file in os.listdir(DIR_PATH)]
+files = []
+X = "data"
+sub_file = [DIR_PATH + file for file in os.listdir(X)]
+
+for f in sub_file:
+    for i in os.listdir(f + "/"):
+        file_path = (f + "/" + i)
+        files.append(file_path)
 
 for path in files:
     with open(path, 'r') as f:
         json_obj = json.load(f)
-        r = requests.post(ENDPOINT, data=json_obj)
-        print(r)
-        print(path)
-
+        r = requests.post(BASE_URL+PATH, data=json_obj)
+        if r.status_code != 200:
+            print(r, "error")
+            print(path)
+        else:
+            print(r, "success")
+            print(path)
