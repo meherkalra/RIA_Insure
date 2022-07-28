@@ -1,10 +1,11 @@
 import json
 import os
 import requests
+import sys
 
-BASE_URL = input("Enter your BASE URL: ")
+BASE_URL = sys.argv[1]
 
-# BASE_URL = "https://2d426e44-0b78-4936-a179-02556024fdbe.mock.pstmn.io"
+# URL = "https://2d426e44-0b78-4936-a179-02556024fdbe.mock.pstmn.io"
 
 PATH1 = "/forms/elements"
 PATH2 = "/forms"
@@ -18,7 +19,6 @@ for f in sub_file:
     for i in os.listdir(f + "/"):
         file_path = (f + "/" + i)
         files.append(file_path)
-print(files)
 
 for path in files:
     with open(path, 'r') as f:
